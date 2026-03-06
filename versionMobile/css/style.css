@@ -104,6 +104,10 @@ footer a {
   border-radius: 50%;
 }
 
+#pros h5 {
+  margin-top: 1.5em;
+}
+
 #testimonial {
   background-color: #e22d0e;
   color: white;
