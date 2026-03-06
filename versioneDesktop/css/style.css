@@ -1,0 +1,151 @@
+/* Your styles here */
+/* BODY */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: #393d41;
+}
+
+/* HEADINGS */
+h1,
+h2,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #25a2c3;
+}
+
+/* BOTTONI */
+button,
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-color: #f04c2f;
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+}
+
+footer h1 {
+  color: white;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+#mainColumn {
+  width: 450px;
+  margin: 0 auto;
+}
+
+#divHeader {
+  margin: 0 auto;
+  height: 6em;
+  background-color: black;
+}
+
+#logoEpicode {
+  height: 3em;
+  display: block;
+  padding-left: 6em;
+  padding-top: 1.2em;
+}
+
+#divIntroduction {
+  margin-top: 0;
+  background-image: url(../images/banner.jpg);
+  background-size: 27em;
+  background-position: center 30%;
+  height: 18em;
+}
+
+#divIntroduction h1 {
+  margin-top: 0;
+  text-align: center;
+  padding-left: 1em;
+  padding-top: 0.7em;
+  line-height: 1.2;
+}
+
+#divIntroduction p {
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#divIntroduction button {
+  display: block;
+  margin: 0 auto;
+  border: 0px;
+  width: 9em;
+  height: 3em;
+  border-radius: 0.5em;
+}
+
+#pros {
+  text-align: center;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#pros img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+#testimonial {
+  background-color: #e22d0e;
+  color: white;
+  text-align: center;
+}
+
+#testimonial h3 {
+  padding-top: 1em;
+}
+
+#ceo {
+  padding-top: 1em;
+}
+
+#segments div {
+  margin: 2em;
+  text-align: center;
+  border: 1px solid #dee1e3;
+}
+
+#segments img {
+  width: 100%;
+  height: 10em;
+  display: block;
+}
+
+footer {
+  background-color: #24a2c3;
+  color: white;
+  text-align: center;
+}
+
+footer h4 {
+  font-size: 1.5em;
+}
+
+footer div {
+  width: 50%;
+  margin: auto;
+  border-top: 1px solid white;
+  font-size: 0.8em;
+  margin-top: 1.8em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
