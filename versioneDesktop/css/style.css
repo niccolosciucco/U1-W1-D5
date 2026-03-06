@@ -41,93 +41,99 @@ footer a {
   color: #c8e7f0;
 }
 
-#mainColumn {
-  width: 450px;
+#mainSection {
+  width: 1500px;
   margin: 0 auto;
 }
 
-#divHeader {
-  margin: 0 auto;
-  height: 6em;
+header div {
   background-color: black;
+  margin-bottom: 0;
 }
 
-#logoEpicode {
-  height: 3em;
-  display: block;
-  padding-left: 6em;
-  padding-top: 1.2em;
+header img {
+  width: 10em;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
-#divIntroduction {
-  margin-top: 0;
+#introduction {
   background-image: url(../images/banner.jpg);
-  background-size: 27em;
-  background-position: center 30%;
-  height: 18em;
-}
-
-#divIntroduction h1 {
-  margin-top: 0;
+  height: 20em;
+  background-position: 50% 5%;
   text-align: center;
-  padding-left: 1em;
-  padding-top: 0.7em;
-  line-height: 1.2;
+  padding-top: 12em;
 }
 
-#divIntroduction p {
-  padding-left: 3em;
-  padding-right: 3em;
-  text-align: center;
-  margin-bottom: 1em;
+#introduction h1 {
+  margin-top: 0em;
 }
 
-#divIntroduction button {
-  display: block;
-  margin: 0 auto;
-  border: 0px;
+button {
+  border: 0;
   width: 9em;
   height: 3em;
   border-radius: 0.5em;
+  margin-top: 1em;
 }
 
 #pros {
-  text-align: center;
-  padding-top: 2em;
-  padding-left: 2em;
-  padding-right: 2em;
+  display: inline-block;
+  padding-top: 6em;
+  padding-left: 13em;
+  padding-bottom: 3.5em;
 }
 
 #pros img {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
+  float: left;
 }
 
-#testimonial {
+#pros p,
+h5 {
+  padding-left: 22em;
+}
+
+#ceo {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
   background-color: #e22d0e;
   color: white;
   text-align: center;
 }
 
-#testimonial h3 {
-  padding-top: 1em;
-}
-
-#ceo {
-  padding-top: 1em;
-}
-
-#segments div {
-  margin: 2em;
-  text-align: center;
-  border: 1px solid #dee1e3;
-}
-
-#segments img {
-  width: 100%;
-  height: 10em;
+#signature {
   display: block;
+  font-size: 0.7em;
+}
+
+#sections {
+  margin-top: 4em;
+  padding-left: 9em;
+  margin-bottom: 4em;
+}
+
+#sections div {
+  border: 1px solid #dee1e3;
+  display: inline-block;
+  text-align: center;
+  margin-right: 1em;
+}
+
+#sections img {
+  width: 20em;
+  height: 13em;
+  display: block;
+}
+
+#sections p {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
 }
 
 footer {
@@ -141,7 +147,7 @@ footer h4 {
 }
 
 footer div {
-  width: 50%;
+  width: 19em;
   margin: auto;
   border-top: 1px solid white;
   font-size: 0.8em;
